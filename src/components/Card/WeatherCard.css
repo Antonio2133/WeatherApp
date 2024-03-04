@@ -1,0 +1,88 @@
+.weather {
+  margin: 20px;
+  width: 100%;
+  max-width: 500px;
+  color: black;
+  background-color: #eeea;
+  padding: 2em 1.5em 2.5em;
+  border-radius: 0.9em;
+  box-shadow: 0.3em 0.3em rgba(175, 163, 163, 0.945);
+}
+
+.weather_title {
+  text-align: center;
+  font-size: 1.9em;
+  margin-bottom: 0.3em;
+}
+
+.weather_country {
+  font-size: 1.4em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.weather_body {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.weather_description {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: capitalize;
+  margin-bottom: 0.8em;
+}
+
+.weather_list {
+  display: grid;
+  gap: 0.5em;
+}
+
+.weather_item {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  font-size: 0.9em;
+}
+
+.weather_value {
+  font-weight: 600;
+}
+
+.weather_temp {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+
+.weather_footer {
+  display: flex;
+  justify-content: center;
+}
+
+.weather_btn{
+  background-color: rgba(241, 180, 144, 0.904);
+  color: rgb(3, 3, 3);
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+}
+
+.weather_btn:hover {
+  background-color: rgb(228, 148, 95);
+  color: rgba(255, 255, 255, 0.932);
+  box-shadow: 0 0 1em rgb(235, 139, 75);
+}
+
+.weather_icon {
+  width: 100%;
+}
+
+.data-section {
+  margin-top: 0px;
+  padding-top: 0px;
+}

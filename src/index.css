@@ -1,4 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
 * {
-  background-color: black;
-  color:antiquewhite;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
