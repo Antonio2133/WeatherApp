@@ -1,0 +1,41 @@
+.searchBar_container {
+  display: flex;
+  margin: 60px auto 0 auto;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+}
+
+.submit_btn {
+  background-color: rgb(182, 117, 57);;
+  color: rgb(37, 36, 32);
+  border-radius: 5px;
+  border: none;
+  margin: 10px 5px;
+  height: 30px;
+  width: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submit_btn:hover {
+  background-color: rgb(104, 58, 21);
+  color: white;
+}
+
+.btn_icon {
+  width: 20px;
+  height: auto;
+}
